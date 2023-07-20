@@ -1,0 +1,23 @@
+.edit_pictures{
+    width: 80px;
+    margin-left: 47px;;
+    margin-top: 10px;
+}
+
+.edit_pictureslq{
+    width: 80px;
+    margin-left: 47px;;
+    margin-top: 10px;
+}
+
+@media (max-width: 740px){
+    .upload-content #id_description{
+        margin-left: 0 !important;
+        width: 94% !important;
+    }
+
+    .edit_pictures{
+        margin-bottom: 10px;
+    }
+}
+

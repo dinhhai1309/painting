@@ -1,0 +1,435 @@
+/* /* .detail{
+    background-color:  #fff;
+    margin-left: 20px;
+    min-height: 560px;
+    padding-top: 31px;
+}
+
+.detail .detail-content{
+    display: inline-block;
+    width: 1175px;
+    color: #000;
+    padding-left: 18px;
+    padding-right: 2px;
+    padding-top: 10px;
+    min-height: 500px;
+    background-color: #ccc;
+}
+
+.detail-content .detail-img{
+    text-align: center;
+    display: inline-block;
+    width: 98.5%;
+    padding-top: 10px;
+    max-height: 1600px;
+}
+
+.detail-content h3{
+    padding: 10px 0; 
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.detail-content .dt-ct-date{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.detail-content p{
+    text-align: justify;
+    padding: 10px 20px 10px 0px;
+    line-height: 1.4;
+
+}
+
+.list-update {
+    float: right;
+    right: 30px;
+    background-color: #ccc;
+    width: 300px;
+    margin-right: 22px;
+    margin-top: 0px;
+    color: #000;
+}
+
+.list-update .list-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.list-update .list-update-content {
+    padding-left: 10px;
+}
+
+.list-update .list-update-content a {
+    line-height: 1.8;
+    text-decoration: none;
+    color: #000;
+}
+
+.list-update .list-update-content a:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+} 
+
+.cmt {
+    margin-bottom: 20px;
+}
+.cmt-par {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    padding-left: 10px;
+    width: 80%;
+}
+
+.input-group button {
+    width: 10%;
+}
+
+.comments h2 {
+    margin: 1rem 0;
+}
+
+.user-image {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.cmt-detail {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 400px;
+    min-height: 80px;
+    height: 80px;
+}
+
+.cmt-detail p {
+    font-size: 14px;
+    padding: 0;
+}
+
+.cmt-add span {
+    margin-left: 20px;
+}
+
+.cmt-add span:first-child {
+    margin-left: 40px;
+}
+
+.active_like {
+    color: red;
+}
+.content{
+    width:100% ;
+    background-color:  #fff;
+    margin-left: 20px; 
+    min-height: 560px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.content_left{
+    width: 68%;
+    background-color:  #e3e1e1;
+    padding-bottom: 1rem;
+
+}
+.content_right{
+    width: 31.5%;
+    margin-left: 0.5%;
+    background-color:  #e3e1e1;
+    padding-bottom: 1rem;
+    padding: 10px;
+}
+
+.content_right h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.description_text{
+    width: 98%; 
+    margin-left: 1%;
+    margin-top: 1rem;
+}
+.icon_like,.fa-heart{
+    font-size: 2rem;
+    margin: 5px 5px;
+}
+
+.input-group{
+    display: flex;
+    margin: 1rem 0;
+}
+ .cmt-par .user-image {
+    width: 10%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#comment{
+    width: 75%;
+}
+.active_like {
+    color: red;
+}
+
+.painting_lqs{
+    margin-top: 2px;
+    display: flex;
+    width: 98%;
+    margin-left: 1%;
+    justify-content: center;
+}
+.painting_lq{
+    width: 15%;
+    margin-right: 5px;
+    height: 130px;
+}
+
+.description-detail{
+    padding: 0 10px;
+}
+
+.content-mobile{
+    display: none;
+    padding: 10px;
+}
+
+.content-mobile h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.dt-ct-date{
+    margin-bottom: 0;
+}
+
+.description-detail p{
+    text-align: justify;
+}
+
+li{
+    list-style: none;
+}
+@media (max-width: 740px){
+    .content{
+        display: block;
+    }
+
+    .content_right,
+    .content_left {
+        width: 100%;
+    }
+
+    .painting_lq{
+        width: 19%;
+    }
+
+    .cmt-detail{
+        min-width: 340px
+    }
+
+    .content-web,
+    li.cmt.cmt_tam{
+        display: none;
+    }
+
+    .cmt-par .user-image{
+        margin-top: 17px;
+        width: 13%;
+    }
+
+    .user-image{
+        width: 13%;
+    }
+
+    button#button-addon2{
+        width: 49px
+    }
+
+    .content-mobile{
+        display: block;
+    }
+
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+
+.content-left{
+    width: 74%;
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    display: flex;
+    position: fixed;
+}
+.content-right{
+    width: 26%;
+    margin-left: 74%;
+}
+
+.row1{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.row1 i{
+    font-size: 25px;
+    color: white;
+    margin-top: 1rem;
+}
+.row2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row2 img{
+    max-width: 100%;
+    max-height: 100vh;
+}
+.row3{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.row3 i{
+    font-size: 25px;
+    color: white;
+    margin-top: 1rem;
+}
+.row4{
+    width: 20%;
+}
+
+.container-paintinglq{
+    height: 100%;
+    display: grid;
+    align-content: center;
+    border-left: 1px solid rgba(182, 182, 182, 0.514);
+}
+
+.imglq{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.painting-name{
+    font-size: 3rem;
+}
+.painting-title{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.painting-title .fa-heart{
+    font-size: 25px;
+    margin: 0.5rem 0;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.active_like{
+    font-size: 25px;
+    margin: 0.5rem 0;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    /* color: aliceblue; */
+    cursor: pointer;
+    color: red !important;
+}
+
+.painting_des{
+    padding: 1rem 10px;
+}
+
+.comment{
+    padding: 1rem 10px;
+
+}
+
+.cmt-input img{
+    width: 10%;
+}
+.cmt-input input{
+    width: 60%;
+    height: 2.5rem;
+}
+.cmt-input button{
+    width: 20%;
+    height: 2.5rem;
+}
+.comments h2 {
+    margin: 1rem 0;
+}
+
+.user-image {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.cmt-detail {
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 60%;
+    min-height: 70px;
+    height: 80px;
+}
+
+.cmt-detail p {
+    font-size: 14px;
+    padding: 0;
+}
+
+.cmt-add span {
+    margin-left: 20px;
+}
+
+.cmt-add span:first-child {
+    margin-left: 40px;
+}
+.cmt {
+    margin-bottom: 20px;
+}
+.cmt-par {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.cmt_tam{
+    margin: 0;
+}
